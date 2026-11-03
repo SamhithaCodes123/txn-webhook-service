@@ -2,7 +2,7 @@
 
 A Python service that receives transaction webhooks (e.g. from RazorPay), acknowledges them immediately with **202 Accepted**, and processes them reliably in the background (with a simulated 30-second external API call), storing results in a cloud PostgreSQL database.
 
-**Live API:** `https://<your-app>.onrender.com` ← replace after deploying
+**Live API:** https://txn-webhook-service-u5n4.onrender.com
 
 ## Endpoints
 
